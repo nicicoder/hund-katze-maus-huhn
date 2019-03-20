@@ -2,3 +2,73 @@
 	box-sizing: border-box;
 }
 
+.wrapper{
+	max-width: 800px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background: lightgrey;
+	margin: auto;
+	/* padding: 20px; */
+
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-top: 30px;
+}
+body{
+		background-color: red;
+	}
+.floatright{
+	float: left;
+	width: 200px;
+}
+	img{
+		width: 100%;
+	}
+	.clearfix::after{
+		content: "hallo";
+		display: block;
+		clear: both;
+	}
+
+
+
+.red{
+background-color: red;
+	width: 300px;
+	height: 300px;
+	order: 1;
+}
+
+.green{
+background-color: green;
+	width: 300px;
+	height: 300px;
+	order: 1;
+
+}
+
+.flex-container{
+
+	display: block;
+}
+
+@media (min-width: 1024px) {
+	.green{
+		background: #000;
+	}
+
+@media (min-width: 1024px) {
+	.blue{
+		background: lightblue;}
+
+}
+
+}
+
+}
+
+} {
+
+}
+
+}
